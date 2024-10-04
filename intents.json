@@ -1,0 +1,41 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["hola", "qué tal", "hola", "saludos","ola","Hola"],
+      "responses": ["Hola!", "Hola!, que necesitas?", "Hola!"]
+    },
+    {
+      "tag": "nombre",
+      "patterns": ["como es tu nombre", "como te llamas", "cual es tu nombre", "tienes nombre?"],
+      "responses": ["Dime Hope", "Mi nombre es Hope"]
+    },
+    {
+      "tag": "funciones",
+      "patterns": ["que puedes hacer", "cuales son tus funciones", "como funcionas", "ayuda", "ayudaa", "no entiendo"],
+      "responses": [
+        "Entre mis funciones actuales, puedo escanear tu estado emocional, buscar informacion  y proporcionarte informacion sobre lo que quieras saber."
+      ]
+    },
+    {
+      "tag": "afecto",
+      "patterns": ["te amo", "te adoro", "cásate conmigo", "eres el mejor", "me encantas"],
+      "responses": ["Eres muy amable!", "Gracias, yo tambien te aprecio!", "Eres genial", "Eso me alegra!", "Gracias por tu cariño!"]
+    },
+    {
+      "tag": "analisis",
+      "patterns": ["analizame", "escaneame", "como me siento?", "analizar", "ayudame", "ayuda", "necesito ayuda"],
+      "responses": ["Proceso terminado", "Terminando proceso", "Desactivando analisis"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["adios", "hasta pronto", "nos vemos", "hasta luego", "ya me voy"],
+      "responses": ["Adios!", "Hasta luego, ten un buen dia", "Nos vemos!"]
+    },
+    {
+      "tag": "buscar_informacion",
+      "patterns": ["búscame en google", "busca esto en google", "puedes buscar información sobre", "necesito buscar", "quiero buscar algo"],
+      "responses": ["Claro! Dame un momento mientras busco ", "Buscando información... dame unos segundos."]
+    }
+  ]
+}
